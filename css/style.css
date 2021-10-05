@@ -1,0 +1,114 @@
+* { /*Reseta TODAS as tags, deixndo com margem, padding 0*/
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box; /*faz é definir se os valores dados a width e a height serão calculados dentro da caixa*/
+}
+
+body{
+    font-family: sans-serif;
+
+}
+
+.header div h1{
+    
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 995px;
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    box-shadow: 0 0 3px 3px white;
+   
+}
+
+.header div img{
+    position: relative;
+    width: 97.7%;
+    height: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    border-radius: 10px;
+ 
+}
+
+.container{
+    display: flex;
+    margin-top: 0;
+
+}
+
+.content{
+    display: flex;
+    width: 80%;
+    height: 280px;
+    background-color: #eeeeee;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right:15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.content div img{
+    width: 320px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px rgb(97, 135, 218);
+    margin-right: 35px;
+}
+
+.content div iframe{
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px rgb(97, 135, 218);
+    margin-right: 35px;
+}
+.navbar{
+   margin-top: 0;
+    width: 20%;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.navbar ul li{
+    margin-top: 5px;
+    background-color: rgb(97, 135, 218);
+    list-style: none;
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 0 0 3px 3px rgb(97, 135, 218);
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar ul li a{
+    color: white;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+.footer{ /*Rodaé*/
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+    padding: 3px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-top: rgb(97, 135, 218) solid 1px;
+    }
+
+.footerimg{
+margin: 3px;
+  width: 35px;
+  text-align: center;
+  padding: 0;
+ 
+ 
+   
+}
